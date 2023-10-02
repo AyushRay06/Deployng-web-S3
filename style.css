@@ -1,0 +1,138 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(webbg.jpg) no-repeat center center fixed; /* Replace 'your-space-background-image.jpg' with the actual image path */
+    background-size: cover; 
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8); /* Translucent black background for the navigation bar */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+header {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Translucent black background for the header */
+    color: #fff;
+    padding: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+.profile-image {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+}
+
+.profile-image:hover {
+    transform: scale(1.05);
+}
+
+section {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Translucent black background for all sections */
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+    color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+/* styles.css */
+/* Existing styles */
+#connect {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+#connect h2 {
+    font-size: 24px;
+}
+
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icons li {
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: #007BFF;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8); /* Translucent black background for the footer */
+    color: #fff;
+}
